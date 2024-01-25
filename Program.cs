@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Identity.Data;
+using minimal_api.dominio.dto;
 
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
@@ -15,9 +16,3 @@ app.MapPost("/login", (LoginDTO loginDTO) => {
 
 app.Run();
 
-public class LoginDTO
-{
-    public string Email { get; set; } = default!;
-
-    public string Senha { get; set; } = default!;
-}
