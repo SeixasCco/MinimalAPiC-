@@ -11,6 +11,8 @@ public class DbContexto : DbContext
     {
         _configuracaoAppSettings = configuracaoAppSettings;
     }
+
+    public DbSet<Veiculo> Veiculos {get; set;} = default!;
     public DbSet<Administrador> Administradores {get; set; } = default!;
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
