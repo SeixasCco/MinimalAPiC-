@@ -98,3 +98,8 @@ C:\Users\Cliente 5485\Desktop\c#\MinimalApiC#\minimal-api\bin\Debug\net8.0\zh-Ha
 C:\Users\Cliente 5485\Desktop\c#\MinimalApiC#\minimal-api\obj\Debug\net8.0\minimal-api.csproj.AssemblyReference.cache
 C:\Users\Cliente 5485\Desktop\c#\MinimalApiC#\minimal-api\obj\Debug\net8.0\minimal-api.sourcelink.json
 C:\Users\Cliente 5485\Desktop\c#\MinimalApiC#\minimal-api\obj\Debug\net8.0\minimal-api.csproj.CopyComplete
+C:\Users\Cliente 5485\Desktop\c#\MinimalApiC#\minimal-api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Cliente 5485\Desktop\c#\MinimalApiC#\minimal-api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Cliente 5485\Desktop\c#\MinimalApiC#\minimal-api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Cliente 5485\Desktop\c#\MinimalApiC#\minimal-api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Cliente 5485\Desktop\c#\MinimalApiC#\minimal-api\obj\Debug\net8.0\minimal-api.MvcApplicationPartsAssemblyInfo.cs
