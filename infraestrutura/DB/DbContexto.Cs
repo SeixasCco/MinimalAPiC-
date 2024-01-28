@@ -4,13 +4,9 @@ using minimal_api.dominio.entidades;
 namespace minimal_api.infraestrutura.DB;
 
 
-public class DbContexto : DbContext
+public class DbContexto(IConfiguration configuracaoAppSettings) : DbContext
 {
-    private readonly IConfiguration _configuracaoAppSettings;
-    public DbContexto(IConfiguration configuracaoAppSettings)
-    {
-        _configuracaoAppSettings = configuracaoAppSettings;
-    }
+    private readonly IConfiguration _configuracaoAppSettings = configuracaoAppSettings;
 
     public DbSet<Veiculo> Veiculos {get; set;} = default!;
     public DbSet<Administrador> Administradores {get; set; } = default!;

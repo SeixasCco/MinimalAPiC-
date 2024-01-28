@@ -9,18 +9,18 @@ namespace minimal_api.dominio.servicos;
 
 public class VeiculoServico : IVeiculoServico
 {
-    private readonly DbContexto _contexto;
+    private readonly DbContexto? _contexto;
 
     public void Apagar(Veiculo veiculo)
     {
-        _contexto.Veiculos.Remove(veiculo);
-        _contexto.SaveChanges();
+        _ = _contexto.Veiculos.Remove(veiculo);
+        _ = _contexto.SaveChanges();
     }
 
     public void Atualizar(Veiculo veiculo)
     {
-        _contexto.Veiculos.Update(veiculo);
-        _contexto.SaveChanges();
+        _ = _contexto.Veiculos.Update(veiculo);
+        _ = _contexto.SaveChanges();
     }
 
     public Veiculo? BuscaPorId(int id)
@@ -30,8 +30,8 @@ public class VeiculoServico : IVeiculoServico
 
     public void Incluir(Veiculo veiculo)
     {
-        _contexto.Veiculos.Add(veiculo);
-        _contexto.SaveChanges();
+        _ = _contexto.Veiculos.Add(veiculo);
+        _ = _contexto.SaveChanges();
     }
 
     public List<Veiculo> Todos(int pagina = 1, string? nome = null, string? marca = null)
