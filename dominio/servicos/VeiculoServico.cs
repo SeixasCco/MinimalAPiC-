@@ -50,6 +50,6 @@ public class VeiculoServico : IVeiculoServico
         if(pagina != null)
             query = query.Skip(((int)pagina - 1) * itensPorPagina).Take(itensPorPagina);
 
-        return query.ToList();
+        return [.. query];
     }
 }
