@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using minimal_api.dominio.dto;
 using minimal_api.dominio.entidades;
 using minimal_api.dominio.Enuns;
@@ -29,7 +30,9 @@ builder.Services.AddAuthentication(option => {
 }).AddJwtBearer (option => {
     option.TokenValidationParameters = new TokenValidationParameters{
         ValidateLifetime = true,
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key))
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key)),
+        ValidateIssuer = false,
+        ValidateAudience = false,
     };
 });
 
@@ -41,7 +44,31 @@ builder.Services.AddScoped<IVeiculoServico, VeiculoServico>();
 
 builder.Services.AddEndpointsApiExplorer();
 
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(options => {
+    options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme{
+        Name = "Authorization",
+        Type = SecuritySchemeType.Http,
+        Scheme = "bearer",
+        BearerFormat = "JWT",
+        In = ParameterLocation.Header,
+        Description = "Insira o token JWT aqui"
+    });
+
+    options.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme{
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                },
+            },
+            Array.Empty<string>()
+        }
+    });
+});
+
 
 builder.Services.AddDbContext<DbContexto>(options => {
     options.UseNpgsql(
@@ -55,7 +82,7 @@ var app = builder.Build();
 
 #region Home
 
-app.MapGet("/", () => Results.Json(new Home())).WithTags("Home");
+app.MapGet("/", () => Results.Json(new Home())).AllowAnonymous().WithTags("Home");
 
 #endregion
 
@@ -99,7 +126,7 @@ app.MapPost("/administradores/login", ([FromBody]LoginDTO loginDTO, IAdministrad
     }
     else
         return Results.Unauthorized();
-}).WithTags("Administradores");
+}).AllowAnonymous().WithTags("Administradores");
 
 app.MapPost("/administradores", ([FromBody]AdministradorDTO administradorDTO, IAdministradorServico administradorServico) =>
 {
