@@ -103,3 +103,11 @@ C:\Users\Cliente 5485\Desktop\c#\MinimalApiC#\minimal-api\bin\Debug\net8.0\Swash
 C:\Users\Cliente 5485\Desktop\c#\MinimalApiC#\minimal-api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Cliente 5485\Desktop\c#\MinimalApiC#\minimal-api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Cliente 5485\Desktop\c#\MinimalApiC#\minimal-api\obj\Debug\net8.0\minimal-api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Cliente 5485\desktop\c#\MinimalApiC#\minimal-api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Cliente 5485\desktop\c#\MinimalApiC#\minimal-api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Cliente 5485\desktop\c#\MinimalApiC#\minimal-api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Cliente 5485\desktop\c#\MinimalApiC#\minimal-api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Cliente 5485\desktop\c#\MinimalApiC#\minimal-api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Cliente 5485\desktop\c#\MinimalApiC#\minimal-api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Cliente 5485\desktop\c#\MinimalApiC#\minimal-api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Cliente 5485\desktop\c#\MinimalApiC#\minimal-api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

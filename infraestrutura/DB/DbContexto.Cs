@@ -27,13 +27,13 @@ public class DbContexto(IConfiguration configuracaoAppSettings) : DbContext
     {
         if(!optionsBuilder.IsConfigured)
         {
-            var stringConexao = _configuracaoAppSettings.GetConnectionString("pg")?.ToString();
+            var stringConexao = _configuracaoAppSettings.GetConnectionString("Pg")?.ToString();
             if(!string.IsNullOrEmpty(stringConexao))
             {
                 optionsBuilder.UseNpgsql(stringConexao);
             }else
             {
-            throw new InvalidOperationException("The database connection string 'pg' was not found.");
+            throw new InvalidOperationException("The database connection string 'Pg' was not found.");
             }
         }
 
