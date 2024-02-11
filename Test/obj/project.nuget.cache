@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eGO2WYi7CmG8Rj3CaQQd2F4ofLWgChJSPv+sczE5qwuvF+z0sZ3RAj0UCu8qn7kDaphhl08fJCSOrfu4tSgWQQ==",
+  "dgSpecHash": "pMCOYG2tPxCmGhu77f0wFbHmutbJIPsHgg1uXngBz6uyfFxSuU7Ds0NQFt0GM4rle2UCRPxJLM4xg4T3SSgBvA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cliente 5485\\desktop\\c#\\MinimalApiC#\\minimal-api\\Test\\Test.csproj",
+  "projectFilePath": "C:\\Users\\Cliente 5485\\desktop\\c#\\MinimalApic#\\minimal-api\\test\\Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cliente 5485\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\Cliente 5485\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.1\\microsoft.aspnetcore.authentication.jwtbearer.8.0.1.nupkg.sha512",

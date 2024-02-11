@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Cliente 5485\\desktop\\c#\\MinimalApiC#\\minimal-api\\Test\\Test.csproj": {}
+    "C:\\Users\\Cliente 5485\\desktop\\c#\\MinimalApic#\\minimal-api\\test\\Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Cliente 5485\\desktop\\c#\\MinimalApiC#\\minimal-api\\Api\\minimal-api.csproj": {
+    "C:\\Users\\Cliente 5485\\desktop\\c#\\MinimalApic#\\minimal-api\\Api\\minimal-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cliente 5485\\desktop\\c#\\MinimalApiC#\\minimal-api\\Api\\minimal-api.csproj",
+        "projectUniqueName": "C:\\Users\\Cliente 5485\\desktop\\c#\\MinimalApic#\\minimal-api\\Api\\minimal-api.csproj",
         "projectName": "minimal-api",
-        "projectPath": "C:\\Users\\Cliente 5485\\desktop\\c#\\MinimalApiC#\\minimal-api\\Api\\minimal-api.csproj",
+        "projectPath": "C:\\Users\\Cliente 5485\\desktop\\c#\\MinimalApic#\\minimal-api\\Api\\minimal-api.csproj",
         "packagesPath": "C:\\Users\\Cliente 5485\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cliente 5485\\desktop\\c#\\MinimalApiC#\\minimal-api\\Api\\obj\\",
+        "outputPath": "C:\\Users\\Cliente 5485\\desktop\\c#\\MinimalApic#\\minimal-api\\Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Cliente 5485\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -90,14 +90,14 @@
         }
       }
     },
-    "C:\\Users\\Cliente 5485\\desktop\\c#\\MinimalApiC#\\minimal-api\\Test\\Test.csproj": {
+    "C:\\Users\\Cliente 5485\\desktop\\c#\\MinimalApic#\\minimal-api\\test\\Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cliente 5485\\desktop\\c#\\MinimalApiC#\\minimal-api\\Test\\Test.csproj",
+        "projectUniqueName": "C:\\Users\\Cliente 5485\\desktop\\c#\\MinimalApic#\\minimal-api\\test\\Test.csproj",
         "projectName": "Test",
-        "projectPath": "C:\\Users\\Cliente 5485\\desktop\\c#\\MinimalApiC#\\minimal-api\\Test\\Test.csproj",
+        "projectPath": "C:\\Users\\Cliente 5485\\desktop\\c#\\MinimalApic#\\minimal-api\\test\\Test.csproj",
         "packagesPath": "C:\\Users\\Cliente 5485\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cliente 5485\\desktop\\c#\\MinimalApiC#\\minimal-api\\Test\\obj\\",
+        "outputPath": "C:\\Users\\Cliente 5485\\desktop\\c#\\MinimalApic#\\minimal-api\\test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Cliente 5485\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -112,8 +112,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Cliente 5485\\desktop\\c#\\MinimalApiC#\\minimal-api\\Api\\minimal-api.csproj": {
-                "projectPath": "C:\\Users\\Cliente 5485\\desktop\\c#\\MinimalApiC#\\minimal-api\\Api\\minimal-api.csproj"
+              "C:\\Users\\Cliente 5485\\desktop\\c#\\MinimalApic#\\minimal-api\\Api\\minimal-api.csproj": {
+                "projectPath": "C:\\Users\\Cliente 5485\\desktop\\c#\\MinimalApic#\\minimal-api\\Api\\minimal-api.csproj"
               }
             }
           }
